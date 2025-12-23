@@ -1,0 +1,17 @@
+[package]
+name = "Oxide-Anvil"
+version = "0.1.0"
+edition = "2024"
+
+[workspace]
+resolver = "2"
+
+members = [
+    "crates/application",
+    "crates/core_hal",
+    "crates/backend/renderer/wgpu",
+    "crates/backend/window/winit",
+]
+
+[dependencies]
+application = { path = "crates/application" }

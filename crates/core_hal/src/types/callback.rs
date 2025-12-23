@@ -1,0 +1,1 @@
+pub type UpdateCallback = fn(f64);

@@ -1,0 +1,9 @@
+[package]
+name = "winit"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+core_hal = { path = "../../../core_hal" }
+raw-window-handle = "0.6.2"
+winit = "0.30.12"

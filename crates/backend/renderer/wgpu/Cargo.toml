@@ -1,0 +1,12 @@
+[package]
+name = "wgpu"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+core_hal = { path = "../../../core_hal" }
+wgpu = { version = "28.0.0" }
+pollster = "0.4"
+raw-window-handle = "0.6.2"
+log = "0.4"
+fern = "0.7"
